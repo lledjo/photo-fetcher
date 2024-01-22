@@ -52,4 +52,3 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initial fetch
   fetchNewPhotos(topImagesContainer, 4);
 });
-
