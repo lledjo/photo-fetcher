@@ -23,6 +23,10 @@ function fetchNewPhotos(container, count) {
           const imageElement = document.createElement("img");
           imageElement.src = imageUrl;
 
+          if (grayscaleSlider.checked) {
+            imageElement.style.filter = "grayscale(100%)";
+          }
+
           const textBox = document.createElement("div");
           textBox.classList.add("image-text");
 
